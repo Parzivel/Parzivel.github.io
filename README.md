@@ -12,3 +12,7 @@ This project is a Javscript-powered method of encrypting messages that works sol
 ## License
 
 MIT
+
+## Contact
+
+Adam#8052 on [Discord](https://discord.com/)
