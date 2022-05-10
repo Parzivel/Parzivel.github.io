@@ -32,7 +32,9 @@
                     <br>
                     Input Password (Optional): <input type="text" id="pass" value=""/>
                     <br>
-                    Message:<br /><textarea id="msg" style="width:100%;height:80px;" placeholder="Your Message Here!"></textarea>
+                    Message:
+                    <br>
+                    <textarea id="msg" style="width:100%;height:80px;" placeholder="Your Message Here!"></textarea>
                     <button onclick='writeIMG()'>Hide message into image</button>
 
                     <br><br><br><br>
@@ -42,7 +44,7 @@
                     Add a password (Optional): <input type="text" id="pass1" value=""/>
                     <br>
                     <button onclick='readIMG()'>Read message</button><p style="display: inline"> Note: Jumbled text means there is either no message in the file, the password is incorrect, or there is no password</p>
-                    <div id="result" style="width:100%; background-color:#777"></div>
+                    <textarea id="result" style="width:100%;height:80px;" placeholder="Output"></textarea>
                 </div>
             </div>
             <footer>
