@@ -1,0 +1,77 @@
+/* Removes rounded corners for all elements */
+* {
+    border-radius: 0px !important;
+}
+/**/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100%;
+}
+
+.jumbotron {
+    border: 1px solid gray;
+}
+
+/* Entire page is enclosed in a wrapper that pushes the footer to the bottom */
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* Typography */
+.text-muted {
+    margin: 8px;
+    padding: 8px;
+}
+
+
+li {
+    font-size: 1.3em;
+}
+
+
+.header {
+    font-size: 2.8em;
+}
+
+.subheader {
+    font-size: 1.6em;
+    padding-left: 7%;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+/**/
+
+#home {
+    background-color: #4D4E4F;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Translucent and solid-colored jumbotron stying */
+#homecontent {
+    background-color: rgba(193, 214, 245, 0.8);
+    margin-top: 5vh;
+    margin-bottom: 30vh;
+}

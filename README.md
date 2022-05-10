@@ -3,6 +3,7 @@
 
 
 ### [Encryption and decryption](encrypt_and_decrypt/encrypt_and_decrypt.md)
+### [Steganography](steganography/steganography.md)
 
 ## Contact
 
