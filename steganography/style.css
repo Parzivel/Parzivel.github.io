@@ -71,7 +71,7 @@ li {
 
 /* Translucent and solid-colored jumbotron stying */
 #homecontent {
-    background-color: rgba(193, 214, 245, 0.8);
+    background-color: rgba(193, 225, 193, 0.8);
     margin-top: 5vh;
     margin-bottom: 30vh;
 }
